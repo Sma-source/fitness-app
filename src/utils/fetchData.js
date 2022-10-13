@@ -8,9 +8,10 @@ export const exerciseOptions = {
 
 export const youtubeOptions = {
   method: "GET",
+  // mode: "no-cors",
   headers: {
-    "X-RapidAPI-Key": process.env.REACT_APP_API_KEY,
     "X-RapidAPI-Host": "youtube-search-and-download.p.rapidapi.com",
+    "X-RapidAPI-Key": process.env.REACT_APP_API_KEY,
   },
 };
 
